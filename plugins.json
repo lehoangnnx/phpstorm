@@ -1,0 +1,280 @@
+{
+  "plugins": [
+    {
+      "pluginId": "zielu.gittoolbox",
+      "pluginName": "GitToolBox",
+      "downloadUrl": "https://github.com/zielu/GitToolBox",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "gr.jchrist.gitextender"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.java",
+        "gr.jchrist.gitextender"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "Key Promoter X",
+      "pluginName": "Key Promoter X",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "String Manipulation",
+      "pluginName": "String Manipulation",
+      "downloadUrl": "https://github.com/krasa/StringManipulation",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.intellij.plugins.vscodekeymap",
+      "pluginName": "VS Code Keymap",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.markskelton.one-dark-theme",
+      "pluginName": "One Dark theme",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.tabnine.TabNine",
+      "pluginName": "TabNine",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.netnexus.camelcaseplugin",
+      "pluginName": "CamelCase",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "net.seesharpsoft.intellij.plugins.file-preview",
+      "pluginName": "Quick File Preview",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "net.vektah.codeglance",
+      "pluginName": "CodeGlance",
+      "downloadUrl": "https://github.com/Vektah/CodeGlance",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "BashSupport",
+      "pluginName": "BashSupport",
+      "downloadUrl": "https://www.bashsupport.com/",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "org.intellij.intelliLang",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.intellij.intelliLang",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "ru.adelf.idea.dotenv",
+      "pluginName": ".env files support",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "Docker",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.jetbrains.php",
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "Docker",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.espend.idea.laravel",
+      "pluginName": "Laravel",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-laravel-plugin",
+      "dependencyPluginIds": [
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php.blade"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.espend.idea.php.toolbox",
+      "pluginName": "PHP Toolbox",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-toolbox",
+      "dependencyPluginIds": [
+        "com.jetbrains.twig",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.espend.idea.php.annotation",
+      "pluginName": "PHP Annotations",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-annotation-plugin",
+      "dependencyPluginIds": [
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "de.espend.idea.php.toolbox"
+      ],
+      "optionalDependencyPluginIds": [
+        "de.espend.idea.php.toolbox"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "fr.adrienbrault.idea.symfony2plugin",
+      "pluginName": "Symfony Support",
+      "downloadUrl": "https://github.com/Haehnchen/idea-php-symfony2-plugin",
+      "dependencyPluginIds": [
+        "com.jetbrains.twig",
+        "com.jetbrains.php",
+        "com.intellij.modules.platform",
+        "org.jetbrains.plugins.yaml",
+        "de.espend.idea.php.annotation",
+        "com.jetbrains.php.dql",
+        "de.espend.idea.php.toolbox",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.jetbrains.php.dql",
+        "de.espend.idea.php.toolbox",
+        "com.jetbrains.plugins.webDeployment"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.kalessil.phpStorm.phpInspectionsEA",
+      "pluginName": "Php Inspections (EA Extended)",
+      "dependencyPluginIds": [
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.kalessil.phpStorm.phpInspectionsUltimate",
+      "pluginName": "Php Inspections (EA Ultimate)",
+      "dependencyPluginIds": [
+        "com.jetbrains.php",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "org.psliwa.idea.composer",
+      "pluginName": "PHP composer.json support",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform",
+        "com.jetbrains.php"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "intellij.prettierJS",
+      "pluginName": "Prettier",
+      "downloadUrl": "https://github.com/JetBrains/intellij-plugins/tree/master/prettierJS",
+      "dependencyPluginIds": [
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "com.intellij.plugins.watcher"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.plugins.watcher"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "izhangzhihao.rainbow.brackets",
+      "pluginName": "Rainbow Brackets",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider",
+        "intellij.haskell",
+        "com.intellij.modules.database"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider",
+        "intellij.haskell",
+        "com.intellij.modules.database"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    }
+  ]
+}
